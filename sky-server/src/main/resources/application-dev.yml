@@ -6,3 +6,11 @@ sky:
     database: sky_take_out
     username: root
     password: hongbin1123
+
+  alioss:
+    endpoint: oss-cn-hangzhou.aliyuncs.com
+    access-key-id: LTAI5tByccZFX9EqrvVbwGtV
+    access-key-secret: bhMbOMWPc09HlySXvJ5J6hHa98q6W5
+    bucket-name: hb-web-tlias
+
+

@@ -21,6 +21,13 @@ public class Result<T> implements Serializable {
         return result;
     }
 
+    /**
+     * 此处<T>用来记录数据，而不是类型
+     * Result<T>返回值类型
+     * @param object
+     * @return
+     * @param <T>
+     */
     public static <T> Result<T> success(T object) {
         Result<T> result = new Result<T>();
         result.data = object;
@@ -34,5 +41,4 @@ public class Result<T> implements Serializable {
         result.code = 0;
         return result;
     }
-
 }
